@@ -76,10 +76,9 @@ btn.onclick = () => {
 
 let navli = document.querySelector('.main-nav-list')
 
-navli.addEventListener('click', (e) => {
+navli.addEventListener('click', () => {
   if (window.innerWidth < 600) {
 
     closeNav()
   }
-
 })
