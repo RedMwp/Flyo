@@ -4,6 +4,9 @@
   box-sizing: border-box;
 
 }
+html,body{
+  scroll-behavior: smooth;
+}
 
 ul li {
   font-family: 'raleway-reg';
@@ -96,11 +99,11 @@ p {
 
 .main-nav {
   display: flex;
-  min-height: 80px;
+  min-height: 68px;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  top: 20px;
+  top: 10px;
   left: 50%;
   transform: translateX(-50%);
   background-color: hsl(217, 28%, 15%);
@@ -112,13 +115,13 @@ p {
   height: 0;
   overflow: hidden;
   position: absolute;
-  bottom: -170%;
+  bottom: -180%;
   background: hsl(217, 28%, 15%);
   list-style: none;
   right: 0;
   min-width: 100%;
   border-radius: 10px;
-  box-shadow: 1px 2px 30px rgba(black, 0.5)
+  box-shadow: 1px 2px 30px rgba(0,0,0, 0.1)
 }
 
 .main-nav-list a {
